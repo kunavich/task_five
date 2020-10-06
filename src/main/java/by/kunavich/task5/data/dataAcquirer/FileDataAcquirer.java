@@ -6,7 +6,7 @@
 package by.kunavich.task5.data.dataAcquirer;
 
 import by.kunavich.task5.data.DataException;
-import by.kunavich.task5.model.Array;
+
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;

@@ -6,7 +6,7 @@
 package by.kunavich.task5.data.dataAcquirer;
 
 import by.kunavich.task5.data.DataException;
-import by.kunavich.task5.model.Array;
+
 
 import java.util.Scanner;
 
@@ -18,7 +18,7 @@ public class ConsoleDataAcquirer implements DataAcquirer{
 
     @Override
     public String getData() throws DataException {
-        System.out.println("Enter array of numbers (like this 1 4 3 8)");
+        System.out.println("Enter line");
         try (Scanner scanner = new Scanner(System.in)){
             String input =scanner.next();
 

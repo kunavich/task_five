@@ -8,9 +8,7 @@ package by.kunavich.task5;
 import by.kunavich.task5.data.*;
 import by.kunavich.task5.data.dataAcquirer.DataAcquirer;
 import by.kunavich.task5.data.dataAcquirer.DataAcquirerFactory;
-import by.kunavich.task5.logic.Calculator;
 import by.kunavich.task5.logic.StringProcessor;
-import by.kunavich.task5.model.Array;
 import by.kunavich.task5.view.ConcoleResultPrinter;
 import by.kunavich.task5.view.ResultPrinter;
 

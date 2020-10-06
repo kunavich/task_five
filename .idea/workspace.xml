@@ -48,7 +48,7 @@
       <recent name="by.kunavich.task4.data.dataAcquirer" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ArrayTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="by.kunavich.task5.Main" />
       <module name="task_five" />
@@ -94,9 +94,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.ArrayTest" />
         <item itemvalue="JUnit.CalculatorTest" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
