@@ -9,6 +9,7 @@ import by.kunavich.task5.data.*;
 import by.kunavich.task5.data.dataAcquirer.DataAcquirer;
 import by.kunavich.task5.data.dataAcquirer.DataAcquirerFactory;
 import by.kunavich.task5.logic.Calculator;
+import by.kunavich.task5.logic.StringProcessor;
 import by.kunavich.task5.model.Array;
 import by.kunavich.task5.view.ConcoleResultPrinter;
 import by.kunavich.task5.view.ResultPrinter;
@@ -25,13 +26,18 @@ public class Main {
          DataAcquirerFactory dataAcquirerFactory = new DataAcquirerFactory();
          DataAcquirer dataAcquirer = dataAcquirerFactory.getDataAcquirer("CONSOLE");
 
+         String string =dataAcquirer.getData();
 
          //count
+         StringProcessor stringProcessor = new StringProcessor();
+         String withRgx =stringProcessor.processWithRgx(string);
+         String withOutRgx =stringProcessor.processWithString(string);
 
 
          //out
          ResultPrinter printer= new ConcoleResultPrinter();
-         printer.printResult();
+         printer.printResult(withRgx);
+         printer.printResult(withOutRgx);
 
 
     }

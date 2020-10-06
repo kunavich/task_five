@@ -12,6 +12,6 @@ import by.kunavich.task5.model.Array;
  * @author Lord
  */
 public interface ResultPrinter {
-    void printResult(Array array);
+    void printResult(String str);
     
 }

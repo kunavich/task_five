@@ -14,8 +14,8 @@ import by.kunavich.task5.model.Array;
 public class ConcoleResultPrinter implements ResultPrinter{
 
     @Override
-    public void printResult(Array array) {
-        System.out.println("Fibonachi numbers in array: "+ array.toString());
+    public void printResult(String str) {
+        System.out.println("Processed line : "+ str);
 
     }
 }

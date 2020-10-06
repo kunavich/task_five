@@ -8,6 +8,8 @@ package by.kunavich.task5.logic;
 
 import by.kunavich.task5.model.Array;
 
+import java.util.regex.Pattern;
+
 /**
  *
  * @author Lord
@@ -17,12 +19,35 @@ public class StringProcessor {
     public String processWithString(String str)
     {
         StringBuilder stringBuilder= new StringBuilder();
+        int k=0;
         for (int i=0; i<str.length();i++) {
-            if((str.charAt(i) >= 'A' && str.charAt(i) <= 'Z')||
-                    (str.charAt(i) >= 'a' && str.charAt(i) <= 'z') ||
-                    (str.charAt(i) == ' '))
+            char c =str.charAt(i);
+            if((c >= 'A' && c <= 'Z')||
+                    (c >= 'a' && c <= 'z') ||
+                    (c == ' ')) {
+                if(k!=0 && c!= ' ' &&
+                        stringBuilder.charAt(stringBuilder.length()-1) != ' ')
+                {
+                    stringBuilder.append(' ');
+                }
                 stringBuilder.append(str.charAt(i));
+                k=0;
+            }
+            else {
+                k++;
+            }
 
+        }
+        return stringBuilder.toString();
+    }
+    public String processWithRgx(String str)
+    {
+        StringBuilder stringBuilder= new StringBuilder();
+        String[] strings =str.split("[^a-zA-Z\\s]+");
+        for (String string:strings
+             ) {
+            stringBuilder.append(string);
+            stringBuilder.append(" ");
 
         }
         return stringBuilder.toString();
