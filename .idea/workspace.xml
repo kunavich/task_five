@@ -35,7 +35,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/by/kunavich/task4" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../task_three" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -128,10 +128,10 @@
       <screen x="0" y="0" width="1024" height="738" />
     </state>
     <state x="295" y="236" width="433" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1024.738@0.0.1024.738" timestamp="1601711802963" />
-    <state x="242" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601708556326">
+    <state x="242" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602002942301">
       <screen x="0" y="0" width="1024" height="738" />
     </state>
-    <state x="242" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1024.738@0.0.1024.738" timestamp="1601708556326" />
+    <state x="242" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1024.738@0.0.1024.738" timestamp="1602002942301" />
     <state x="292" y="122" key="FileChooserDialogImpl" timestamp="1601480200440">
       <screen x="0" y="0" width="1024" height="738" />
     </state>
@@ -177,7 +177,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/by/kunavich/task4/data/dataAcquirer/RandomDataAcquirer.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/by/kunavich/task5/data/dataAcquirer/RandomDataAcquirer.java</url>
           <line>22</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
