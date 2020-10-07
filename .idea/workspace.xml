@@ -48,7 +48,7 @@
       <recent name="by.kunavich.task4.data.dataAcquirer" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.StringProcessorTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="by.kunavich.task5.Main" />
       <module name="task_five" />
@@ -92,8 +92,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringProcessorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task_five" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.kunavich.task5.logic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.kunavich.task5.logic" />
+      <option name="MAIN_CLASS_NAME" value="by.kunavich.task5.logic.StringProcessorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StringProcessorTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.ArrayTest" />
         <item itemvalue="JUnit.CalculatorTest" />
@@ -116,6 +132,10 @@
       <screen x="0" y="0" width="1024" height="738" />
     </state>
     <state x="0" y="0" key="#Project_Structure/0.0.1024.738@0.0.1024.738" timestamp="1601708249895" />
+    <state x="92" y="92" width="840" height="554" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1602085358780">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state x="92" y="92" width="840" height="554" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1024.738@0.0.1024.738" timestamp="1602085358780" />
     <state x="273" y="68" key="#com.intellij.ide.util.MemberChooser" timestamp="1601483136209">
       <screen x="0" y="0" width="1024" height="738" />
     </state>
@@ -136,22 +156,22 @@
       <screen x="0" y="0" width="1024" height="738" />
     </state>
     <state x="292" y="122" key="FileChooserDialogImpl/0.0.1024.738@0.0.1024.738" timestamp="1601480200440" />
-    <state width="980" height="221" key="GridCell.Tab.0.bottom" timestamp="1601714216745">
+    <state width="980" height="176" key="GridCell.Tab.0.bottom" timestamp="1602085269219">
       <screen x="0" y="0" width="1024" height="738" />
     </state>
-    <state width="980" height="221" key="GridCell.Tab.0.bottom/0.0.1024.738@0.0.1024.738" timestamp="1601714216745" />
-    <state width="980" height="221" key="GridCell.Tab.0.center" timestamp="1601714216745">
+    <state width="980" height="176" key="GridCell.Tab.0.bottom/0.0.1024.738@0.0.1024.738" timestamp="1602085269219" />
+    <state width="980" height="176" key="GridCell.Tab.0.center" timestamp="1602085269218">
       <screen x="0" y="0" width="1024" height="738" />
     </state>
-    <state width="980" height="221" key="GridCell.Tab.0.center/0.0.1024.738@0.0.1024.738" timestamp="1601714216745" />
-    <state width="980" height="221" key="GridCell.Tab.0.left" timestamp="1601714216745">
+    <state width="980" height="176" key="GridCell.Tab.0.center/0.0.1024.738@0.0.1024.738" timestamp="1602085269218" />
+    <state width="980" height="176" key="GridCell.Tab.0.left" timestamp="1602085269218">
       <screen x="0" y="0" width="1024" height="738" />
     </state>
-    <state width="980" height="221" key="GridCell.Tab.0.left/0.0.1024.738@0.0.1024.738" timestamp="1601714216745" />
-    <state width="980" height="221" key="GridCell.Tab.0.right" timestamp="1601714216745">
+    <state width="980" height="176" key="GridCell.Tab.0.left/0.0.1024.738@0.0.1024.738" timestamp="1602085269218" />
+    <state width="980" height="176" key="GridCell.Tab.0.right" timestamp="1602085269218">
       <screen x="0" y="0" width="1024" height="738" />
     </state>
-    <state width="980" height="221" key="GridCell.Tab.0.right/0.0.1024.738@0.0.1024.738" timestamp="1601714216745" />
+    <state width="980" height="176" key="GridCell.Tab.0.right/0.0.1024.738@0.0.1024.738" timestamp="1602085269218" />
     <state width="980" height="221" key="GridCell.Tab.1.bottom" timestamp="1601714216746">
       <screen x="0" y="0" width="1024" height="738" />
     </state>

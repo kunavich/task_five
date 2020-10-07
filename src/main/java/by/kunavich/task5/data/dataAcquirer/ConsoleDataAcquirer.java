@@ -21,12 +21,7 @@ public class ConsoleDataAcquirer implements DataAcquirer{
         System.out.println("Enter line");
         try (Scanner scanner = new Scanner(System.in)){
             String input =scanner.next();
-
-
             return input;
         }
-
-
-
     }
 }

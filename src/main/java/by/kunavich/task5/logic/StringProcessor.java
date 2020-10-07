@@ -48,6 +48,7 @@ public class StringProcessor {
             stringBuilder.append(" ");
 
         }
+        stringBuilder.deleteCharAt(stringBuilder.length()-1);
         return stringBuilder.toString();
     }
 
